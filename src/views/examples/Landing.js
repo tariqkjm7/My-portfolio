@@ -1,8 +1,8 @@
 /*!
 
-=========================================================
+===================================================
 * Argon Design System React - v1.1.0
-=========================================================
+==================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
 * Copyright 2020 Creative Tim (https://www.creative-tim.com)
@@ -10,13 +10,12 @@
 
 * Coded by Creative Tim
 
-=========================================================
+================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
 import React from "react";
-// nodejs library that concatenates classes
 import classnames from "classnames";
 import promo1 from "assets/img/theme/promo-1.png";
 import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
@@ -26,7 +25,6 @@ import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
 
-// reactstrap components
 import {
   Badge,
   Button,
@@ -136,7 +134,7 @@ class Landing extends React.Component {
                 </svg>
               </div>
             </section>
-            {/* 1st Hero Variation */}
+            
           </div>
           <section className="section section-lg pt-lg-0 mt--200">
             <Container>
